@@ -1,0 +1,128 @@
+.login-logo {
+    width: 170px;
+}
+
+.brand {
+    width: 160px;
+}
+
+.login-failed-message {
+    color: rgb(255, 0, 0);
+    font-size: 1.3rem;
+    float: left;
+    margin: .5rem 0 1rem 0;
+}
+
+.change-periode {
+    padding-left: .5rem !important;
+    padding-right: .5rem !important;
+    border-radius: 3px;
+}
+
+.change-periode.active {
+    background: var(--mainColor) !important;
+    color: #fff;
+}
+
+.loading {
+    background: rgb(219, 219, 219);
+    color: rgb(219, 219, 219);
+    padding-right: 10px;
+}
+
+.loader {
+    text-align: center;
+    padding: 5rem 0;
+}
+
+.loader4 {
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+    padding: 0px;
+    border-radius: 100%;
+    border: 5px solid;
+    border-top-color: var(--mainColor);
+    border-bottom-color: rgb(225, 225, 225);
+    border-left-color: var(--mainColor);
+    border-right-color: rgb(225, 225, 225);
+    -webkit-animation: loader4 1s ease-in-out infinite;
+    animation: loader4 1s ease-in-out infinite;
+}
+
+@keyframes loader4 {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes loader4 {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+.btn-table-action {
+    border: none;
+    border-radius: 3px;
+    padding: .3rem .6rem;
+    color: #fff;
+    transition: .3s;
+}
+
+.btn-table-action.edit {
+    background: #ffaa00;
+}
+
+.btn-table-action.delete {
+    background: #c91d1d;
+}
+
+.btn-table-action.detail {
+    background: #06adad;
+}
+
+.btn-table-action[disabled="disabled"] {
+    cursor: not-allowed;
+    opacity: .5;
+}
+
+.date-picker {
+    background-color: transparent !important;
+}
+
+.month-picker {
+    background-color: transparent !important;
+}
+
+.custom-table {
+    width: 100%;
+}
+
+.custom-table tbody tr td {
+    padding: .5rem 0 .5rem 2rem;
+}
+
+.transaksi-tambah-produk {
+    border: none;
+    background: transparent;
+    color: var(--mainColor);
+}
+
+#transaksi-produk .row.invalid p {
+    color: #d30505;
+}
+
+#transaksi-produk .row.invalid select,
+#transaksi-produk .row.invalid input,
+#transaksi-produk .row input.invalid {
+    border: 1px solid #d30505;
+}
